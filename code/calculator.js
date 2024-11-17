@@ -10,8 +10,13 @@ function divide (a,b){
     return a / b
 }
 
-function muliply(a,b){
+function multiply(a,b){
     return a * b
 }
 
-module.exports = [sum,muliply,divide,subract]
+module.exports = {
+    sum,
+    subract,
+    divide,
+    multiply
+}
